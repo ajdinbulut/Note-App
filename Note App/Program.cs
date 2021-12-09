@@ -26,7 +26,7 @@ namespace Note_App
                 {
                     Console.WriteLine("Enter the title:");
                     Title.Add(Console.ReadLine());
-                    Console.WriteLine("Enter the description");
+                    Console.WriteLine("Enter the description:");
                     Description.Add(Console.ReadLine());
                 }
                 else if (input == "Delete")
